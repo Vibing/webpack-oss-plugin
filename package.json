@@ -1,0 +1,28 @@
+{
+  "name": "webpack-oss-upload-plugin",
+  "version": "1.1.2",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/Vibing/webpack-oss-plugin.git",
+  "bugs": {
+    "url": "https://github.com/Vibing/webpack-oss-plugin/issues",
+    "email": "903254852@qq.com"
+  },
+  "author": "chenlong <cl903254852@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx webpack",
+    "build": "rm -rf lib && tsc"
+  },
+  "devDependencies": {
+    "@types/ali-oss": "^6.0.5",
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^14.0.11"
+  },
+  "dependencies": {
+    "ali-oss": "^6.8.0",
+    "chalk": "^4.0.0",
+    "inquirer": "^7.1.0"
+  }
+}
